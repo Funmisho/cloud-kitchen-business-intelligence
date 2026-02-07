@@ -92,5 +92,28 @@ The solution allows the business to:
 
 ---
 
+
 ## Project Structure
+
+```text
+cloud-kitchen-business-intelligence/
+├── 1_project_brief/
+│   └── project_brief.pdf
+├── 2_data_model/
+│   ├── erd.png
+│   └── database_schema.sql
+├── 3_sql_views/
+│   ├── vw_order_sales.sql
+│   ├── vw_inventory_status.sql
+│   ├── vw_ingredient_usage.sql
+│   ├── vw_ingredient_cost.sql
+│   └── vw_staff_cost.sql
+├── 4_dashboards/
+│   ├── orders_dashboard.png
+│   ├── inventory_dashboard.png
+│   └── staff_dashboard.png
+├── 5_insights/
+│   └── executive_summary.pdf
+└── README.md
+
 
